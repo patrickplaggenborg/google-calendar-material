@@ -27,13 +27,13 @@ https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets
 
 ![app-icon]
 
-1. Download [Fluid App](http://fluidapp.com) to transform any web page into a native Mac App.
+1. **Download [Fluid App](http://fluidapp.com) to transform any web page into a native Mac App.**
 
   * Pay for the license to enable ‘Userstyles’.
   * Download the Google Calendar app icon: https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets/images/google-calendar-logo.png
   * Create a standalone app for URL calendar.google.com named ‘Google Calendar’ and use the custom app icon.
 
-2. FluidApp does not support @import statements. So you will have to manually add the CSS:
+2. **FluidApp does not support @import statements. So you will have to manually add the CSS:**
 
    Edit your custom styles (**Window → Userscripts**) and add these separate stylesheets (hosted via RawGit):
 
