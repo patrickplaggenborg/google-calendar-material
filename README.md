@@ -1,4 +1,4 @@
-# Google Calendar Material Design
+# Google Calendar redesign with Material Design
 
 Inspired by:
 - [Ink for Google™](https://chrome.google.com/webstore/detail/ink-for-google/hmanckoiohnlgdommlcckcflkmllobgj)
@@ -61,3 +61,4 @@ Consider donating:
 - [Ink for Google™](https://chrome.google.com/webstore/detail/ink-for-google/hmanckoiohnlgdommlcckcflkmllobgj) by [Carlos Jeurissen](https://carlosjeurissen.com/)
 - [cleanGoogleCalendar](https://gist.github.com/Gambloide/a5ed244df001039bb7e4) by [@Gambloide](https://gist.github.com/Gambloide)
 - Browser icons made by: [Pixel perfect](http://www.flaticon.com/authors/pixel-perfect) from www.flaticon.com and is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/ "Creative Commons BY 3.0") 
+- The Google Calendar name and logo is owned by Google.
