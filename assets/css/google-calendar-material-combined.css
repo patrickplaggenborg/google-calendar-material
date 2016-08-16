@@ -1,0 +1,98 @@
+.st-c .rb-n {
+    border-radius: 0.2rem !important;
+}
+
+.calListLabelOuter {
+    border-radius: 0.2rem!important;
+}
+
+.chip-color {
+    border-radius: 0.3rem!important;
+}
+
+.calListImg-opn {
+    border-radius: 100%!important;
+}
+
+.calList {
+    padding-left: 14px !important;
+}
+
+.chip dt {
+    padding: 4px !important;
+}
+
+.chip-caption {
+  opacity: 0.6;
+}
+
+.rb-ro-20 {
+    color: grey !important;
+    background: none !important;
+}
+.cwci {
+      display: none !important;
+}
+
+.tg-col-eventwrapper {
+    padding-left: 0.5rem;
+}
+
+select {
+  border-radius: .063rem;
+  height: 1.5rem;
+}
+
+.textinput, .text  {
+  background-color: white !important;
+}
+.ui-sch-schmedit {
+  font-family: Roboto, arial, sans-serif;
+  color: #222;
+  font-size: 20px;
+  font-weight: normal;
+}
+.neb-rb-default, .ecp-rb-default, .ecp-rb-color, .neb-rb-color {
+  width: 22px !important;
+  height: 22px !important;
+  border: none !important;
+  border-radius: .063rem;
+  margin-right: 8px !important;
+}
+.ecp {
+  width: 401px !important;
+  padding: 10px;
+}
+.bubble, .neb-popup {
+    border: 1px solid transparent !important;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2) !important;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2) !important;
+}
+.neb-popup-tip {
+  display:none;
+}
+.ecp-dt-hr {
+  height: 22px !important;
+  margin: 0 8px 0 2px !important;
+}
+.ecp-label {
+  font-family: Roboto, sans-serif;
+  font-size: 13px !important;
+  color: rgb(0, 0, 0) !important;
+  line-height: 18px;
+  margin: 6px 0 12px !important;
+}
+.neb-dropdown-indicator, .bcp-selected {
+  background: none !important;
+  content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/expand_more_24px.svg)!important;
+  height: 24px !important;
+  width: 24px !important;
+  position: absolute !important;
+  top: -1px !important;
+  left: -1px !important;
+  opacity: .55 !important;
+}
+.bcp-selected {
+  top: -4px !important;
+  left: -4px !important;
+}
