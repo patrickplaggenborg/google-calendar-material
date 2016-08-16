@@ -12,25 +12,25 @@ Inspired by:
 
 ## How to use?
 
-### Method 1: In browser (User CSS)
+### Method A: In browser (User CSS)
 
-- Download the Stylish extension (or any alternative):
+1. Download the Stylish extension (or any alternative):
  [Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Safari](http://sobolev.us/stylish/), 
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome), 
 [Opera](https://addons.opera.com/extensions/details/stylish/)
 
-- Add this combined CSS with @import statements as a Custom Stylesheet for ‘calendar.google.com’:
+2. Add this combined CSS with @import statements as a Custom Stylesheet for ‘calendar.google.com’:
 https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets/css/google-calendar-material-import.css
 
-### Method 2: Standalone Mac App - Download Fluid App
+### Method B: Standalone Mac App - Download Fluid App
 
-- Download [Fluid App](http://fluidapp.com) to transform any web page into a native Mac App.
+1. Download [Fluid App](http://fluidapp.com) to transform any web page into a native Mac App.
 
   * Pay for the license to enable ‘Userstyles’.
   * Download the Google Calendar app icon: https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets/images/google-calendar-logo.png
   * Create a standalone app for URL calendar.google.com named ‘Google Calendar’ and use the custom app icon.
 
-- FluidApp does not support @import statements. So you will have to manually add the CSS:
+2. FluidApp does not support @import statements. So you will have to manually add the CSS:
 
    Edit your custom styles (**Window → Userscripts**) and add these separate stylesheets (hosted via RawGit):
 
