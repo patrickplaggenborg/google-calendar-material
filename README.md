@@ -12,7 +12,10 @@ Inspired by:
 
 ## How to use?
 
-### Method 1: In browser - Download the Stylish extension: [Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Safari](http://sobolev.us/stylish/), 
+### Method 1: In browser (User CSS)
+
+Download the Stylish extension (or any alternative):
+ [Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Safari](http://sobolev.us/stylish/), 
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome), 
 [Opera](https://addons.opera.com/extensions/details/stylish/)
 
