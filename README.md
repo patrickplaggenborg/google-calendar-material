@@ -23,7 +23,7 @@ Inspired by:
 2. Add this combined CSS with @import statements as a Custom Stylesheet for ‘calendar.google.com’:
 https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets/css/google-calendar-material-import.css
 
-## How to use? Method B: Standalone Mac App using Fluid
+## How to use? Method B: Standalone Google Calendar Mac App (using Fluid)
 
 ![app-icon]
 
