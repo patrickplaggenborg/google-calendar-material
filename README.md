@@ -1,4 +1,4 @@
-**Google Calendar Material Design**
+# Google Calendar Material Design
 
 Inspired by:
 - Ink for Google™ (https://chrome.google.com/webstore/detail/ink-for-google/hmanckoiohnlgdommlcckcflkmllobgj)
