@@ -1,5 +1,3 @@
-
-
 #gbwa, #gbwa+div, #gbwa+div+div {
     all: initial;
     rotate: inherit;
@@ -69,7 +67,7 @@
     opacity: .55!important;
     -webkit-filter: none!important;
     filter: none!important;
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/apps_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/apps_24px.svg)!important
 }
 #gbwa>div:first-child>a:hover:after {
     opacity: .8!important
@@ -147,7 +145,7 @@
     opacity: .55!important;
     -webkit-filter: none!important;
     filter: none!important;
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/ink_custom_circle_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/ink_custom_circle_24px.svg)!important
 }
 #gbwa+div:not(:last-child)>div:first-child>a:hover:after {
     opacity: .8!important
@@ -205,7 +203,7 @@
     cursor: pointer!important
 }
 #gbwa+div:not(:last-child)>div:first-child>a>div.gb_hc>div, #gbwa+div:not(:last-child)>div:first-child>a>div:empty {
-    background-image: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/notifications_24px.svg)!important;
+    background-image: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/notifications_24px.svg)!important;
     color: transparent!important
 }
 #gbwa+div:not(:last-child)>div:first-child>a>div.gb_hc>div, #gbwa+div:not(:last-child)>div:first-child>a>div:empty, #gbwa+div:not(:last-child)>div:first-child>a>div>div:empty {
@@ -395,7 +393,7 @@
     box-shadow: 0 2px 2px rgba(0, 0, 0, .24), 0 0 2px rgba(0, 0, 0, .12)!important
 }
 #gbqfqw:before {
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/search_24px.svg);
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/search_24px.svg);
     height: 24px;
     width: 24px;
     position: absolute;
@@ -444,7 +442,7 @@
     height: 64px;
     display: block;
     box-sizing: border-box;
-    background-image: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/images/googlelogo_grey_clr_74x24px.svg);
+    background-image: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/images/googlelogo_grey_clr_74x24px.svg);
     background-size: 74px 24px;
     background-repeat: no-repeat;
     font-family: product sans, arial, sans-serif;
@@ -551,7 +549,7 @@ body>.dpi-popup {
 #calcontent .calListRow .calListImg, #clst_fav_menu, #clst_my_menu {
     height: 24px!important;
     width: 24px!important;
-    background-image: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/more_horiz_24px.svg);
+    background-image: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/more_horiz_24px.svg);
     border: none!important;
     background-size: 24px!important;
     background-position: 50%!important;
@@ -581,7 +579,7 @@ body>.dpi-popup {
     background-repeat: no-repeat!important;
     background-position: 50%!important;
     opacity: .55!important;
-    background-image: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/arrow_drop_down_24px.svg)
+    background-image: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/arrow_drop_down_24px.svg)
 }
 #gbqfab+div[tabindex][role=button][title]>div, #sidebar .qnb-container>div:last-child[role=button] {
     display: none!important
@@ -655,7 +653,7 @@ body>.dpi-popup {
     opacity: 1!important;
     -webkit-filter: invert(1)!important;
     filter: invert(1)!important;
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/add_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/add_24px.svg)!important
 }
 #sidebar .qnb-container>div:first-child[role=button]:hover:after {
     opacity: 1!important
@@ -732,7 +730,7 @@ body>.dpi-popup {
     opacity: .55!important;
     -webkit-filter: none!important;
     filter: none!important;
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/info_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/info_24px.svg)!important
 }
 #rhstogglecell .snt-container:hover:after {
     opacity: .8!important
@@ -799,7 +797,7 @@ body>.dpi-popup {
     opacity: .55!important;
     -webkit-filter: none!important;
     filter: none!important;
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/more_vert_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/more_vert_24px.svg)!important
 }
 #mg-settings:hover:after {
     opacity: .8!important
@@ -871,7 +869,7 @@ div[id^=todayButton]>div:after {
     opacity: .55!important;
     -webkit-filter: none!important;
     filter: none!important;
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/today_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/today_24px.svg)!important
 }
 div[id^=todayButton]>div:hover:after {
     opacity: .8!important
@@ -944,7 +942,7 @@ div[id^=navBack]:after {
     opacity: .55!important;
     -webkit-filter: none!important;
     filter: none!important;
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/chevron_left_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/chevron_left_24px.svg)!important
 }
 div[id^=navBack]:hover:after {
     opacity: .8!important
@@ -1008,7 +1006,7 @@ div[id^=navForward]:after {
     opacity: .55!important;
     -webkit-filter: none!important;
     filter: none!important;
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/chevron_right_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/chevron_right_24px.svg)!important
 }
 div[id^=navForward]:hover:after {
     opacity: .8!important
@@ -1072,7 +1070,7 @@ div[id^=navForward]:active:before {
     opacity: .55!important;
     -webkit-filter: none!important;
     filter: none!important;
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/arrow_back_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/arrow_back_24px.svg)!important
 }
 .jfk-button.jfk-button-standard.btcb:hover:after {
     opacity: .8!important
@@ -1136,7 +1134,7 @@ div[id^=navForward]:active:before {
     opacity: .55!important;
     -webkit-filter: none!important;
     filter: none!important;
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/print_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/print_24px.svg)!important
 }
 .jfk-button-standard.printbtn:hover:after {
     opacity: .8!important
@@ -1227,7 +1225,7 @@ body.ink-info-open div[id^=navBack] {
     opacity: .1
 }
 #clst_fav_menu, #clst_my_menu {
-    background: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/more_horiz_24px.svg)!important;
+    background: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/more_horiz_24px.svg)!important;
     right: 0;
     font-size: 0!important
 }
@@ -1236,7 +1234,7 @@ body.ink-info-open div[id^=navBack] {
     transform: scaleY(-1)
 }
 #dp_0_header .zippy-arrow, #nav>h2 .zippy-arrow {
-    background: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/expand_more_24px.svg)!important;
+    background: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/expand_more_24px.svg)!important;
     left: 0!important
 }
 .calHeader, .monthtableSpace {
@@ -1360,22 +1358,22 @@ td[id^=dateBox]>div {
     opacity: 1!important
 }
 #topRightNavigation>.button-strip>.trans-strip:before {
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/expand_more_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/expand_more_24px.svg)!important
 }
 #topRightNavigation>.button-strip>[role=button]:nth-child(2):before {
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/view_headline_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/view_headline_24px.svg)!important
 }
 #topRightNavigation>.button-strip>[role=button]:nth-child(3):before {
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/view_column_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/view_column_24px.svg)!important
 }
 #topRightNavigation>.button-strip>[role=button]:nth-child(4):before {
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/view_module_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/view_module_24px.svg)!important
 }
 #topRightNavigation>.button-strip>[role=button]:nth-child(5):before {
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/view_column_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/view_column_24px.svg)!important
 }
 #topRightNavigation>.button-strip>[role=button]:nth-child(6):before {
-    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/view_stream_24px.svg)!important
+    content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/view_stream_24px.svg)!important
 }
 #vr-nav {
     position: absolute!important
@@ -1553,13 +1551,10 @@ version: 1.0
 .calListLabelOuter:hover {
     background: #F7F7F7 !important;
 }
-
 .chip dd,
 .chip dt {
     padding: 5px 5px 0px 5px;
 }
-
-
 .tg-col-eventwrapper {
     padding-left: 0.73rem;
 }
@@ -1660,7 +1655,7 @@ select {
 }
 .neb-dropdown-indicator, .bcp-selected {
   background: none !important;
-  content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/expand_more_24px.svg)!important;
+  content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/expand_more_24px.svg)!important;
   height: 24px !important;
   width: 24px !important;
   position: absolute !important;
