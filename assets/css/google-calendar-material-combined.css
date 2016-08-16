@@ -1,3 +1,1579 @@
+
+
+#gbwa, #gbwa+div, #gbwa+div+div {
+    all: initial;
+    rotate: inherit;
+    translate: inherit;
+    scale: inherit;
+    white-space: nowrap;
+    font-family: roboto, arial, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    pointer-events: none;
+    -webkit-tap-highlight-color: transparent
+}
+#gbwa>div:first-child>a {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 48px!important;
+    width: 48px!important;
+    display: inline-block!important;
+    -webkit-tap-highlight-color: transparent!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    position: relative!important;
+    cursor: pointer!important
+}
+#gbwa>div:first-child>a>* {
+    display: none!important
+}
+#gbwa>div:first-child>a:after, #gbwa>div:first-child>a:before {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    position: absolute!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-tap-highlight-color: transparent!important;
+    pointer-events: none!important;
+    top: 0!important;
+    left: 0!important;
+    cursor: pointer!important
+}
+#gbwa>div:first-child>a:before {
+    content: ""!important;
+    height: 100%!important;
+    width: 100%!important;
+    position: absolute!important;
+    -webkit-transform: scale(0)!important;
+    transform: scale(0)!important;
+    background-color: transparent!important;
+    border-radius: 50%!important;
+    -webkit-transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s, -webkit-transform .15s!important
+}
+#gbwa>div:first-child>a:after {
+    height: 24px!important;
+    width: 24px!important;
+    margin: 12px!important;
+    -webkit-transition: opacity .2s!important;
+    transition: opacity .2s!important;
+    opacity: .55!important;
+    -webkit-filter: none!important;
+    filter: none!important;
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/apps_24px.svg)!important
+}
+#gbwa>div:first-child>a:hover:after {
+    opacity: .8!important
+}
+#gbwa>div:first-child>a:active:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+#gbwa>div:first-child>a:active:before, #gbwa>div:first-child>a[aria-expanded=true]:before {
+    border-radius: 2px!important
+}
+#gbwa>div:first-child>a[aria-expanded=true]:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+#gbwa>div:first-child>a {
+    right: 108px!important;
+    pointer-events: all!important;
+    position: fixed!important;
+    top: 8px!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 48px!important;
+    width: 48px!important;
+    display: inline-block!important;
+    -webkit-tap-highlight-color: transparent!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    position: relative!important;
+    cursor: pointer!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a>* {
+    display: none!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a:after, #gbwa+div:not(:last-child)>div:first-child>a:before {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    position: absolute!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-tap-highlight-color: transparent!important;
+    pointer-events: none!important;
+    top: 0!important;
+    left: 0!important;
+    cursor: pointer!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a:before {
+    content: ""!important;
+    height: 100%!important;
+    width: 100%!important;
+    position: absolute!important;
+    -webkit-transform: scale(0)!important;
+    transform: scale(0)!important;
+    background-color: transparent!important;
+    border-radius: 50%!important;
+    -webkit-transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s, -webkit-transform .15s!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a:after {
+    height: 24px!important;
+    width: 24px!important;
+    margin: 12px!important;
+    -webkit-transition: opacity .2s!important;
+    transition: opacity .2s!important;
+    opacity: .55!important;
+    -webkit-filter: none!important;
+    filter: none!important;
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/ink_custom_circle_24px.svg)!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a:hover:after {
+    opacity: .8!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a:active:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a:active:before, #gbwa+div:not(:last-child)>div:first-child>a[aria-expanded=true]:before {
+    border-radius: 2px!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a[aria-expanded=true]:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+#gbwa+div+div>div:first-child>a svg, #gbwa+div>div:first-child>a svg, #gbwa>div:first-child>a svg {
+    display: none!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a {
+    right: 60px!important;
+    z-index: 0!important;
+    pointer-events: all!important;
+    position: fixed!important;
+    top: 8px!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a:after {
+    z-index: -1!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a>div, #gbwa+div:not(:last-child)>div:first-child>a>div>div {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 12px!important;
+    width: 12px!important;
+    display: block!important;
+    position: absolute!important;
+    top: 0!important;
+    right: 0!important;
+    bottom: 0!important;
+    left: 0!important;
+    margin: auto!important;
+    background-size: 12px!important;
+    background-position: 0!important;
+    background-repeat: no-repeat!important;
+    font-family: arial, sans-serif!important;
+    font-size: 12px!important;
+    font-weight: 700!important;
+    text-align: center!important;
+    line-height: 12px!important;
+    color: #fff!important;
+    opacity: 1!important;
+    cursor: pointer!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a>div.gb_hc>div, #gbwa+div:not(:last-child)>div:first-child>a>div:empty {
+    background-image: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/notifications_24px.svg)!important;
+    color: transparent!important
+}
+#gbwa+div:not(:last-child)>div:first-child>a>div.gb_hc>div, #gbwa+div:not(:last-child)>div:first-child>a>div:empty, #gbwa+div:not(:last-child)>div:first-child>a>div>div:empty {
+    -webkit-filter: invert(1)!important;
+    filter: invert(1)!important
+}
+#gbwa+div+div>div:first-child>a, #gbwa+div:last-child>div:first-child>a[href^="https://accounts.google.com/SignOutOptions"] {
+    all: initial;
+    rotate: inherit;
+    translate: inherit;
+    scale: inherit;
+    height: 48px!important;
+    width: 48px!important;
+    cursor: pointer!important;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    pointer-events: all!important;
+    position: fixed!important;
+    top: 8px!important;
+    right: 12px!important
+}
+#gbwa+div+div>div:first-child>a:before, #gbwa+div:last-child>div:first-child>a[href^="https://accounts.google.com/SignOutOptions"]:before {
+    all: initial;
+    rotate: inherit;
+    translate: inherit;
+    scale: inherit;
+    content: "";
+    height: 48px;
+    width: 48px;
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .12);
+    border-radius: 2px;
+    -webkit-transition: background-color .15s, border-radius .3s, -webkit-transform .15s;
+    transition: background-color .15s, border-radius .3s, -webkit-transform .15s;
+    transition: transform .15s, background-color .15s, border-radius .3s;
+    transition: transform .15s, background-color .15s, border-radius .3s, -webkit-transform .15s;
+    top: 0;
+    left: 0
+}
+#gbwa+div+div>div:first-child>a:active:not([aria-expanded=true]):before, #gbwa+div:last-child>div:first-child>a[href^="https://accounts.google.com/SignOutOptions"]:active:not([aria-expanded=true]):before {
+    border-radius: 2px
+}
+#gbwa+div+div>div:first-child>a:not(:active):not([aria-expanded=true]):before, #gbwa+div:last-child>div:first-child>a[href^="https://accounts.google.com/SignOutOptions"]:not(:active):not([aria-expanded=true]):before {
+    border-radius: 50%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    background-color: transparent
+}
+#gbwa+div+div>div:first-child>a>span, #gbwa+div:last-child>div:first-child>a[href^="https://accounts.google.com/SignOutOptions"]>span {
+    position: absolute!important;
+    height: 32px!important;
+    width: 32px!important;
+    display: block!important;
+    top: 0!important;
+    right: 0!important;
+    bottom: 0!important;
+    left: 0!important;
+    margin: auto!important;
+    border-radius: 50%!important;
+    box-shadow: none!important;
+    overflow: hidden!important
+}
+#gbwa+div+div>div:first-child>a>span:after, #gbwa+div:last-child>div:first-child>a[href^="https://accounts.google.com/SignOutOptions"]>span:after {
+    all: initial;
+    rotate: inherit;
+    translate: inherit;
+    scale: inherit
+}
+#gbwa+div+div>div:first-child>a>span:before, #gbwa+div:last-child>div:first-child>a[href^="https://accounts.google.com/SignOutOptions"]>span:before {
+    height: 32px!important;
+    width: 32px!important;
+    top: 0!important;
+    left: 0!important;
+    overflow: hidden!important;
+    border-radius: 50%!important
+}
+@media (-webkit-min-device-pixel-ratio:1.25), (min-resolution:1.25dppx), not all {
+    #gbwa+div+div>div:first-child>a>span:before, #gbwa+div:last-child>div:first-child>a[href^="https://accounts.google.com/SignOutOptions"]>span:before {
+        height: 64px!important;
+        width: 64px!important
+    }
+}
+#gbsfw, #gbwa+div+div>div:nth-child(2), #gbwa+div>div:nth-child(2), #gbwa>div:nth-child(2) {
+    top: 48px;
+    pointer-events: all;
+    border: none!important;
+    border-radius: 2px!important;
+    left: auto!important;
+    position: fixed!important;
+    top: 56px!important;
+    overflow: hidden!important;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)!important
+}
+#gbwa+div>div:nth-child(2) {
+    background-color: #e5e5e5!important
+}
+#gbwa>div[role=region] {
+    cursor: default!important;
+    overflow-y: auto!important
+}
+#gbwa+div+div>div:first-child>div, #gbwa+div>div:first-child>div, #gbwa>div:first-child>div {
+    display: none!important
+}
+#gbwa+div+div>div:nth-child(2), #gbwa+div:last-child>div:nth-child(2) {
+    right: 12px!important
+}
+#gbsfw, #gbwa+div>div:nth-child(2) {
+    right: 60px!important
+}
+#gbwa>div:nth-child(2) {
+    right: 108px!important
+}
+.gb_P {
+    display: none!important
+}
+#gbwa+div:last-child>div:first-child>a[href^="https://accounts.google.com/ServiceLogin"] {
+    all: initial;
+    rotate: inherit;
+    translate: inherit;
+    scale: inherit;
+    height: 36px;
+    width: 80px;
+    background-color: #4285f4;
+    display: block;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 36px;
+    text-align: center;
+    pointer-events: all;
+    position: fixed;
+    top: 14px;
+    right: 16px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .16)
+}
+#gb {
+    -webkit-transform: translate(0)!important;
+    transform: translate(0)!important
+}
+#gbq2 {
+    padding-top: 12px!important
+}
+#gbqfbw {
+    display: none!important
+}
+#gbqfab {
+    height: 36px!important;
+    padding-top: 4px!important;
+    padding-right: 8px!important
+}
+#gbqfqw input::-webkit-input-placeholder {
+    -webkit-transition: color .1s;
+    transition: color .1s;
+    color: rgba(0, 0, 0, .5)
+}
+#gbqfqw input::-moz-placeholder {
+    -webkit-transition: color .1s;
+    transition: color .1s;
+    color: rgba(0, 0, 0, .5)
+}
+#gbqfqw {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    cursor: text!important;
+    font-family: roboto, arial, sans-serif!important;
+    font-size: 14px!important;
+    -webkit-transition: box-shadow .2s, background-color .2s!important;
+    transition: box-shadow .2s, background-color .2s!important;
+    background-color: #fff!important;
+    border-radius: 2px!important;
+    height: 40px!important;
+    width: 100%!important;
+    display: block!important;
+    box-sizing: border-box!important;
+    position: relative!important;
+    box-shadow: 0 1px 1.5px rgba(0, 0, 0, .06), 0 1px 1px rgba(0, 0, 0, .12)!important
+}
+#gbqfqw.gbqfqwf {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .24), 0 0 2px rgba(0, 0, 0, .12)!important
+}
+#gbqfqw:before {
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/search_24px.svg);
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    -webkit-transition: opacity .2s, -webkit-filter .2s;
+    transition: opacity .2s, -webkit-filter .2s;
+    transition: opacity .2s, filter .2s;
+    transition: opacity .2s, filter .2s, -webkit-filter .2s;
+    opacity: .55
+}
+#gbqfqw.gbqfqwf:before, #gbqfqw:hover:before {
+    opacity: .8
+}
+#gbqfqw .gsib_a {
+    padding: 0!important
+}
+#gbqfqw input[name] {
+    padding: 0!important;
+    margin: 0!important;
+    color: #000!important;
+    height: 40px!important;
+    -webkit-transition: color .1s!important;
+    transition: color .1s!important;
+    box-sizing: border-box!important;
+    position: absolute!important;
+    left: 64px!important;
+    width: calc(100% - 96px)!important
+}
+#gb>div[data-ved]:first-child {
+    position: fixed!important;
+    width: 100%!important;
+    z-index: 99999!important;
+    box-sizing: border-box!important;
+    padding-top: 20px!important;
+    bottom: 0!important
+}
+#gbq1 {
+    max-width: none!important
+}
+#gb div:not(#gbwa)[class]>div[class]>a[href][class][title][data-ved]>*, #gbq1 a>* {
+    display: none!important
+}
+#gb div:not(#gbwa)[class]>div[class]>a[href][class][title][data-ved]:before, #gbq1 a:before {
+    content: "Calendar";
+    height: 64px;
+    display: block;
+    box-sizing: border-box;
+    background-image: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/images/googlelogo_grey_clr_74x24px.svg);
+    background-size: 74px 24px;
+    background-repeat: no-repeat;
+    font-family: product sans, arial, sans-serif;
+    font-size: 22.5px;
+    background-position: 12px 22px;
+    line-height: initial;
+    padding-top: 18px;
+    padding-left: 90px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    color: #4285f4;
+    position: fixed;
+    top: 0;
+    left: 12px
+}
+#gbq1 {
+    width: 262px!important;
+    min-width: 0!important
+}
+#rhstogglecell {
+    overflow: visible!important
+}
+#navfooter {
+    top: inherit!important;
+    bottom: 0!important;
+    position: fixed!important
+}
+#vr-nav .applogo {
+    display: none!important
+}
+#topRightNavigation {
+    margin-right: 44px!important
+}
+#gridcontainer {
+    height: calc(100vh - 80px)!important;
+    overflow-y: hidden!important;
+    margin-right: 16px!important;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .117647), 0 2px 2px rgba(0, 0, 0, .258824)!important;
+    display: -webkit-flex!important;
+    display: flex!important;
+    -webkit-flex-direction: column!important;
+    flex-direction: column!important;
+    box-sizing: border-box!important;
+    padding-top: 64px!important
+}
+#topcontainerwk {
+    -webkit-flex: none!important;
+    flex: none!important
+}
+#scrolltimedeventswk {
+    height: auto!important;
+    -webkit-flex: 1!important;
+    flex: 1!important
+}
+#mainbody {
+    margin-left: 262px!important;
+    padding-top: 0!important
+}
+#nav {
+    z-index: 987;
+    position: fixed!important;
+    top: 64px!important;
+    height: calc(100vh - 64px)!important;
+    box-sizing: border-box!important;
+    width: 256px!important;
+    margin-left: 0!important;
+    padding-left: 24px!important;
+    padding-right: 24px!important;
+    background: #f5f5f5!important
+}
+.tg-dualmarker {
+    border-bottom: transparent!important
+}
+#sidebar {
+    padding: 0!important
+}
+body {
+    overflow: hidden!important;
+    background: #f5f5f5!important
+}
+#vr-nav {
+    border-bottom-color: transparent!important
+}
+#gb>div, #mainnav, #vr-nav, .calHeader, .calList, .chromeColor, .dp-weekday, .dp-weekend, .dp-weekendh, .dpdiv, .dpi-popup, .trans-strip {
+    background: transparent!important
+}
+body>.dpi-popup {
+    background: #fff!important
+}
+#calcontent .calListRow {
+    height: 30px!important;
+    padding-top: 6px!important;
+    box-sizing: border-box!important;
+    border-color: transparent!important;
+    cursor: pointer!important
+}
+#calcontent .calListRow .calListLabelOuter-hvr {
+    background: transparent!important
+}
+#calcontent .calListRow:hover {
+    background: #e5e5e5!important
+}
+#calcontent .calListRow .calListImg, #clst_fav_menu, #clst_my_menu {
+    height: 24px!important;
+    width: 24px!important;
+    background-image: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/more_horiz_24px.svg);
+    border: none!important;
+    background-size: 24px!important;
+    background-position: 50%!important;
+    box-shadow: none!important;
+    -webkit-transition: opacity .1s!important;
+    transition: opacity .1s!important;
+    opacity: .65!important
+}
+#clst_fav_menu, #clst_my_menu {
+    top: -1px!important
+}
+#calcontent .calListRow .calListImg:not(.calListImg-sel) {
+    opacity: 0!important
+}
+#calcontent .calListRow .calListSquare {
+    margin-right: 17px!important;
+    margin-left: 5px!important
+}
+#gbqfab+div[tabindex][role=button][title] {
+    height: 40px!important;
+    width: 30px!important;
+    right: 0!important;
+    top: 0!important;
+    z-index: 6!important;
+    outline: none!important;
+    background-size: 24px!important;
+    background-repeat: no-repeat!important;
+    background-position: 50%!important;
+    opacity: .55!important;
+    background-image: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/arrow_drop_down_24px.svg)
+}
+#gbqfab+div[tabindex][role=button][title]>div, #sidebar .qnb-container>div:last-child[role=button] {
+    display: none!important
+}
+#sidebar .qnb-container>div:first-child[role=button] {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 56px!important;
+    width: 56px!important;
+    cursor: pointer!important;
+    font-size: 0!important;
+    color: transparent!important;
+    background-color: #db4437!important;
+    display: inline-block!important;
+    border-radius: 50%!important;
+    position: relative!important;
+    overflow: hidden!important;
+    -webkit-tap-highlight-color: transparent!important;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28)!important;
+    -webkit-transition: -webkit-transform .15s cubic-bezier(.4, 0, 1, 1)!important;
+    transition: -webkit-transform .15s cubic-bezier(.4, 0, 1, 1)!important;
+    transition: transform .15s cubic-bezier(.4, 0, 1, 1)!important;
+    transition: transform .15s cubic-bezier(.4, 0, 1, 1), -webkit-transform .15s cubic-bezier(.4, 0, 1, 1)!important
+}
+#sidebar .qnb-container>div:first-child[role=button]:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 6px 12px rgba(0, 0, 0, .32)!important;
+    -webkit-transition: box-shadow .15s cubic-bezier(0, 0, .2, 1)!important;
+    transition: box-shadow .15s cubic-bezier(0, 0, .2, 1)!important
+}
+#sidebar .qnb-container>div:first-child[role=button]:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .18), 0 8px 16px rgba(0, 0, 0, .36)!important
+}
+#sidebar .qnb-container>div:first-child[role=button]>* {
+    display: none!important
+}
+#sidebar .qnb-container>div:first-child[role=button]:after, #sidebar .qnb-container>div:first-child[role=button]:before {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    cursor: pointer!important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important
+}
+#sidebar .qnb-container>div:first-child[role=button]:before {
+    content: ""!important;
+    height: 56px!important;
+    width: 56px!important;
+    border-radius: 50%!important;
+    position: absolute!important;
+    background-color: hsla(0, 0%, 100%, .3)!important;
+    -webkit-transition: background-color .15s, border-radius .3s, -webkit-transform .15s!important;
+    transition: background-color .15s, border-radius .3s, -webkit-transform .15s!important;
+    transition: transform .15s, background-color .15s, border-radius .3s!important;
+    transition: transform .15s, background-color .15s, border-radius .3s, -webkit-transform .15s!important
+}
+#sidebar .qnb-container>div:first-child[role=button]:not(:active):before {
+    -webkit-transform: scale(0)!important;
+    transform: scale(0)!important;
+    background-color: transparent!important
+}
+#sidebar .qnb-container>div:first-child[role=button]:after {
+    height: 24px!important;
+    width: 24px!important;
+    margin: 16px!important;
+    -webkit-transition: opacity .15s!important;
+    transition: opacity .15s!important;
+    opacity: 1!important;
+    -webkit-filter: invert(1)!important;
+    filter: invert(1)!important;
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/add_24px.svg)!important
+}
+#sidebar .qnb-container>div:first-child[role=button]:hover:after {
+    opacity: 1!important
+}
+#sidebar .qnb-container>div:first-child[role=button][aria-disabled=true]:after {
+    opacity: .55!important
+}
+#sidebar .qnb-container>div:first-child[role=button] {
+    position: fixed!important;
+    bottom: 24px!important;
+    right: 24px!important
+}
+.sng-frame:last-child .sng-wrapper {
+    border-bottom: 0!important
+}
+#gadgetcell {
+    margin-right: 15px!important;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .117647), 0 2px 2px rgba(0, 0, 0, .258824)!important;
+    max-height: calc(100vh - 80px)!important;
+    overflow-y: auto!important;
+    background: #fff!important
+}
+#rhstogglecell .snt-container {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 48px!important;
+    width: 48px!important;
+    display: inline-block!important;
+    -webkit-tap-highlight-color: transparent!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    position: relative!important;
+    cursor: pointer!important
+}
+#rhstogglecell .snt-container>* {
+    display: none!important
+}
+#rhstogglecell .snt-container:after, #rhstogglecell .snt-container:before {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    position: absolute!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-tap-highlight-color: transparent!important;
+    pointer-events: none!important;
+    top: 0!important;
+    left: 0!important;
+    cursor: pointer!important
+}
+#rhstogglecell .snt-container:before {
+    content: ""!important;
+    height: 100%!important;
+    width: 100%!important;
+    position: absolute!important;
+    -webkit-transform: scale(0)!important;
+    transform: scale(0)!important;
+    background-color: transparent!important;
+    border-radius: 50%!important;
+    -webkit-transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s, -webkit-transform .15s!important
+}
+#rhstogglecell .snt-container:after {
+    height: 24px!important;
+    width: 24px!important;
+    margin: 12px!important;
+    -webkit-transition: opacity .2s!important;
+    transition: opacity .2s!important;
+    opacity: .55!important;
+    -webkit-filter: none!important;
+    filter: none!important;
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/info_24px.svg)!important
+}
+#rhstogglecell .snt-container:hover:after {
+    opacity: .8!important
+}
+#rhstogglecell .snt-container:active:before, #rhstogglecell[id][id][id].rhstogglecell-open .snt-container:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+#mg-more {
+    display: none!important
+}
+#mg-settings {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 48px!important;
+    width: 48px!important;
+    display: inline-block!important;
+    -webkit-tap-highlight-color: transparent!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    position: relative!important;
+    cursor: pointer!important
+}
+#mg-settings>* {
+    display: none!important
+}
+#mg-settings:after, #mg-settings:before {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    position: absolute!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-tap-highlight-color: transparent!important;
+    pointer-events: none!important;
+    top: 0!important;
+    left: 0!important;
+    cursor: pointer!important
+}
+#mg-settings:before {
+    content: ""!important;
+    height: 100%!important;
+    width: 100%!important;
+    position: absolute!important;
+    -webkit-transform: scale(0)!important;
+    transform: scale(0)!important;
+    background-color: transparent!important;
+    border-radius: 50%!important;
+    -webkit-transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s, -webkit-transform .15s!important
+}
+#mg-settings:after {
+    height: 24px!important;
+    width: 24px!important;
+    margin: 12px!important;
+    -webkit-transition: opacity .2s!important;
+    transition: opacity .2s!important;
+    opacity: .55!important;
+    -webkit-filter: none!important;
+    filter: none!important;
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/more_vert_24px.svg)!important
+}
+#mg-settings:hover:after {
+    opacity: .8!important
+}
+#mg-settings:active:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+#mg-settings:active:before, #mg-settings[aria-expanded=true]:before {
+    border-radius: 2px!important
+}
+#mg-settings[aria-expanded=true]:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+div[id^=todayButton]>div {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 48px!important;
+    width: 48px!important;
+    display: inline-block!important;
+    -webkit-tap-highlight-color: transparent!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    position: relative!important;
+    cursor: pointer!important
+}
+div[id^=todayButton]>div>* {
+    display: none!important
+}
+div[id^=todayButton]>div:after, div[id^=todayButton]>div:before {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    position: absolute!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-tap-highlight-color: transparent!important;
+    pointer-events: none!important;
+    top: 0!important;
+    left: 0!important;
+    cursor: pointer!important
+}
+div[id^=todayButton]>div:before {
+    content: ""!important;
+    height: 100%!important;
+    width: 100%!important;
+    position: absolute!important;
+    -webkit-transform: scale(0)!important;
+    transform: scale(0)!important;
+    background-color: transparent!important;
+    border-radius: 50%!important;
+    -webkit-transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s, -webkit-transform .15s!important
+}
+div[id^=todayButton]>div:after {
+    height: 24px!important;
+    width: 24px!important;
+    margin: 12px!important;
+    -webkit-transition: opacity .2s!important;
+    transition: opacity .2s!important;
+    opacity: .55!important;
+    -webkit-filter: none!important;
+    filter: none!important;
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/today_24px.svg)!important
+}
+div[id^=todayButton]>div:hover:after {
+    opacity: .8!important
+}
+div[id^=todayButton]>div:active:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+div[id^=todayButton]>div[aria-disabled=true], div[id^=todayButton]>div[aria-disabled=true]:after, div[id^=todayButton]>div[aria-disabled=true]:before {
+    cursor: default!important
+}
+div[id^=todayButton]>div[aria-disabled=true]:after {
+    opacity: .25!important
+}
+div[id^=todayButton]>div[aria-disabled=true]:before {
+    content: none!important
+}
+div[id^=navBack] {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 48px!important;
+    width: 48px!important;
+    display: inline-block!important;
+    -webkit-tap-highlight-color: transparent!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    position: relative!important;
+    cursor: pointer!important
+}
+div[id^=navBack]>* {
+    display: none!important
+}
+div[id^=navBack]:after, div[id^=navBack]:before {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    position: absolute!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-tap-highlight-color: transparent!important;
+    pointer-events: none!important;
+    top: 0!important;
+    left: 0!important;
+    cursor: pointer!important
+}
+div[id^=navBack]:before {
+    content: ""!important;
+    height: 100%!important;
+    width: 100%!important;
+    position: absolute!important;
+    -webkit-transform: scale(0)!important;
+    transform: scale(0)!important;
+    background-color: transparent!important;
+    border-radius: 50%!important;
+    -webkit-transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s, -webkit-transform .15s!important
+}
+div[id^=navBack]:after {
+    height: 24px!important;
+    width: 24px!important;
+    margin: 12px!important;
+    -webkit-transition: opacity .2s!important;
+    transition: opacity .2s!important;
+    opacity: .55!important;
+    -webkit-filter: none!important;
+    filter: none!important;
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/chevron_left_24px.svg)!important
+}
+div[id^=navBack]:hover:after {
+    opacity: .8!important
+}
+div[id^=navBack]:active:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+div[id^=navForward] {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 48px!important;
+    width: 48px!important;
+    display: inline-block!important;
+    -webkit-tap-highlight-color: transparent!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    position: relative!important;
+    cursor: pointer!important
+}
+div[id^=navForward]>* {
+    display: none!important
+}
+div[id^=navForward]:after, div[id^=navForward]:before {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    position: absolute!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-tap-highlight-color: transparent!important;
+    pointer-events: none!important;
+    top: 0!important;
+    left: 0!important;
+    cursor: pointer!important
+}
+div[id^=navForward]:before {
+    content: ""!important;
+    height: 100%!important;
+    width: 100%!important;
+    position: absolute!important;
+    -webkit-transform: scale(0)!important;
+    transform: scale(0)!important;
+    background-color: transparent!important;
+    border-radius: 50%!important;
+    -webkit-transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s, -webkit-transform .15s!important
+}
+div[id^=navForward]:after {
+    height: 24px!important;
+    width: 24px!important;
+    margin: 12px!important;
+    -webkit-transition: opacity .2s!important;
+    transition: opacity .2s!important;
+    opacity: .55!important;
+    -webkit-filter: none!important;
+    filter: none!important;
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/chevron_right_24px.svg)!important
+}
+div[id^=navForward]:hover:after {
+    opacity: .8!important
+}
+div[id^=navForward]:active:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+.jfk-button.jfk-button-standard.btcb {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 48px!important;
+    width: 48px!important;
+    display: inline-block!important;
+    -webkit-tap-highlight-color: transparent!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    position: relative!important;
+    cursor: pointer!important
+}
+.jfk-button.jfk-button-standard.btcb>* {
+    display: none!important
+}
+.jfk-button.jfk-button-standard.btcb:after, .jfk-button.jfk-button-standard.btcb:before {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    position: absolute!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-tap-highlight-color: transparent!important;
+    pointer-events: none!important;
+    top: 0!important;
+    left: 0!important;
+    cursor: pointer!important
+}
+.jfk-button.jfk-button-standard.btcb:before {
+    content: ""!important;
+    height: 100%!important;
+    width: 100%!important;
+    position: absolute!important;
+    -webkit-transform: scale(0)!important;
+    transform: scale(0)!important;
+    background-color: transparent!important;
+    border-radius: 50%!important;
+    -webkit-transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s, -webkit-transform .15s!important
+}
+.jfk-button.jfk-button-standard.btcb:after {
+    height: 24px!important;
+    width: 24px!important;
+    margin: 12px!important;
+    -webkit-transition: opacity .2s!important;
+    transition: opacity .2s!important;
+    opacity: .55!important;
+    -webkit-filter: none!important;
+    filter: none!important;
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/arrow_back_24px.svg)!important
+}
+.jfk-button.jfk-button-standard.btcb:hover:after {
+    opacity: .8!important
+}
+.jfk-button.jfk-button-standard.btcb:active:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+.jfk-button-standard.printbtn {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    height: 48px!important;
+    width: 48px!important;
+    display: inline-block!important;
+    -webkit-tap-highlight-color: transparent!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    position: relative!important;
+    cursor: pointer!important
+}
+.jfk-button-standard.printbtn>* {
+    display: none!important
+}
+.jfk-button-standard.printbtn:after, .jfk-button-standard.printbtn:before {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    position: absolute!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-tap-highlight-color: transparent!important;
+    pointer-events: none!important;
+    top: 0!important;
+    left: 0!important;
+    cursor: pointer!important
+}
+.jfk-button-standard.printbtn:before {
+    content: ""!important;
+    height: 100%!important;
+    width: 100%!important;
+    position: absolute!important;
+    -webkit-transform: scale(0)!important;
+    transform: scale(0)!important;
+    background-color: transparent!important;
+    border-radius: 50%!important;
+    -webkit-transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, background-color .05s, -webkit-transform .15s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s!important;
+    transition: border-radius .15s, transform .15s, background-color .05s, -webkit-transform .15s!important
+}
+.jfk-button-standard.printbtn:after {
+    height: 24px!important;
+    width: 24px!important;
+    margin: 12px!important;
+    -webkit-transition: opacity .2s!important;
+    transition: opacity .2s!important;
+    opacity: .55!important;
+    -webkit-filter: none!important;
+    filter: none!important;
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/print_24px.svg)!important
+}
+.jfk-button-standard.printbtn:hover:after {
+    opacity: .8!important
+}
+.jfk-button-standard.printbtn:active:before {
+    -webkit-transform: scale(1)!important;
+    transform: scale(1)!important;
+    background-color: rgba(0, 0, 0, .12)!important
+}
+#mg-settings {
+    right: 156px!important
+}
+#mg-settings, #rhstogglecell .snt-container {
+    position: fixed!important;
+    top: 8px!important;
+    z-index: 986!important
+}
+#rhstogglecell .snt-container {
+    right: 204px!important
+}
+.jfk-button-standard.printbtn, .jfk-button.jfk-button-standard.btcb, div[id^=navBack], div[id^=navForward], div[id^=todayButton]>div {
+    z-index: 1!important;
+    top: 72px!important;
+    position: fixed!important
+}
+.jfk-button.jfk-button-standard.btcb {
+    left: 274px!important
+}
+.jfk-button-standard.printbtn, div[id^=navForward] {
+    right: 24px!important
+}
+div[id^=todayButton]>div {
+    right: 72px!important
+}
+div[id^=navBack] {
+    right: 120px!important
+}
+body.ink-info-open .jfk-button-standard.printbtn, body.ink-info-open div[id^=navForward] {
+    right: 204px!important
+}
+body.ink-info-open div[id^=todayButton]>div {
+    right: 252px!important
+}
+body.ink-info-open div[id^=navBack] {
+    right: 300px!important
+}
+.noprint {
+    color: #6f6f6f
+}
+#dp_0_header, .calHeader {
+    height: 32px!important;
+    padding: 0!important;
+    margin: 0!important;
+    opacity: .55!important;
+    -webkit-transition: opacity .1s!important;
+    transition: opacity .1s!important;
+    background: transparent!important
+}
+#nav {
+    padding-right: 19px!important
+}
+#clst_fav_menu, #clst_my_menu, #dp_0_header .zippy-arrow, #nav>h2 .zippy-arrow {
+    height: 24px!important;
+    background-color: #ff0!important;
+    width: 24px!important;
+    position: absolute!important;
+    top: 4px!important;
+    -webkit-transition: -webkit-transform .1s!important;
+    transition: -webkit-transform .1s!important;
+    transition: transform .1s!important;
+    transition: transform .1s, -webkit-transform .1s!important;
+    position: relative;
+    overflow: visible!important
+}
+#clst_fav_menu:before, #clst_my_menu:before, #dp_0_header .zippy-arrow:before, #nav>h2 .zippy-arrow:before {
+    content: "";
+    height: 40px;
+    width: 40px;
+    margin: -8px;
+    display: block;
+    border-radius: 50%;
+    background-color: #000;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    opacity: 0
+}
+#clst_fav_menu:active:before, #clst_my_menu:active:before, #dp_0_header .zippy-arrow:active:before, #nav>h2 .zippy-arrow:active:before {
+    opacity: .1
+}
+#clst_fav_menu, #clst_my_menu {
+    background: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/more_horiz_24px.svg)!important;
+    right: 0;
+    font-size: 0!important
+}
+#nav>h2:not(.goog-zippy-expanded) .zippy-arrow {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1)
+}
+#dp_0_header .zippy-arrow, #nav>h2 .zippy-arrow {
+    background: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/expand_more_24px.svg)!important;
+    left: 0!important
+}
+.calHeader, .monthtableSpace {
+    margin-left: 0!important;
+    margin-right: 0!important
+}
+.calHeaderSpace {
+    margin-left: 32px!important;
+    color: #000!important;
+    height: 32px!important;
+    line-height: 32px!important;
+    display: block!important
+}
+#dp_0_header:hover, .calHeader:hover {
+    opacity: 1!important
+}
+#dp_0_header>td:first-child {
+    padding: 0!important
+}
+#dp_0_next, #dp_0_prev {
+    -webkit-filter: brightness(0);
+    filter: brightness(0)
+}
+.goog-menu.goog-menu-vertical {
+    border: none!important
+}
+body.ink-info-open #maincell {
+    margin-right: 177px!important
+}
+.sr-summary, td[id^=dateBox] {
+    position: fixed!important;
+    top: 72px!important;
+    height: 48px!important;
+    line-height: 48px!important;
+    z-index: 1!important;
+    margin: 0!important;
+    padding: 0!important
+}
+td[id^=dateBox] {
+    left: 292px!important
+}
+td[id^=dateBox]>div {
+    font-size: 18px!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #333!important;
+    padding: 0!important
+}
+.sr-summary {
+    left: 324px!important
+}
+.goog-menu {
+    border: none!important;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)!important
+}
+#searchAddCal {
+    height: 28px!important;
+    border: none!important;
+    border-radius: 2px!important
+}
+#topRightNavigation>.button-strip {
+    position: fixed!important;
+    width: 238px!important;
+    top: 64px!important;
+    left: 0!important;
+    z-index: 1000!important;
+    padding: 0!important;
+    margin: 0!important;
+    box-sizing: border-box!important;
+    background: none!important
+}
+#topRightNavigation>.button-strip>.trans-strip:after {
+    content: "View"
+}
+#topRightNavigation>.button-strip>[role=button] {
+    all: initial!important;
+    rotate: inherit!important;
+    translate: inherit!important;
+    scale: inherit!important;
+    font-family: Roboto, Arial, sans-serif!important;
+    font-size: 13px!important;
+    height: 32px!important;
+    line-height: 32px!important;
+    padding-left: 60px!important;
+    position: relative!important;
+    color: rgba(0, 0, 0, .75)!important;
+    display: block!important
+}
+#topRightNavigation>.button-strip>.trans-strip, #topRightNavigation>.button-strip>[role=button], #topRightNavigation>.button-strip>[role=button] * {
+    cursor: pointer!important
+}
+#topRightNavigation>.button-strip .trans-strip {
+    height: 32px!important;
+    font-family: Roboto, Arial, sans-serif!important;
+    font-size: 14px!important;
+    line-height: 32px!important;
+    padding-left: 60px!important;
+    display: block!important;
+    margin: 0!important;
+    width: 100%!important;
+    box-sizing: border-box!important
+}
+#topRightNavigation>.button-strip>.trans-strip:before, #topRightNavigation>.button-strip>[role=button]:before {
+    height: 24px!important;
+    width: 24px!important;
+    content: ""!important;
+    position: absolute!important;
+    top: 4px!important;
+    left: 24px!important;
+    opacity: .55!important
+}
+#topRightNavigation>.button-strip>[role=button].goog-imageless-button-checked, #topRightNavigation>.button-strip>[role=button]:hover {
+    background-color: rgba(0, 0, 0, .05)!important
+}
+#topRightNavigation>.button-strip>[role=button].goog-imageless-button-checked {
+    color: #4285f4!important
+}
+#topRightNavigation>.button-strip>[role=button].goog-imageless-button-checked:before {
+    -webkit-filter: contrast(0) sepia(1) hue-rotate(195deg) saturate(12)!important;
+    filter: contrast(0) sepia(1) hue-rotate(195deg) saturate(12)!important;
+    opacity: 1!important
+}
+#topRightNavigation>.button-strip>.trans-strip:before {
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/expand_more_24px.svg)!important
+}
+#topRightNavigation>.button-strip>[role=button]:nth-child(2):before {
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/view_headline_24px.svg)!important
+}
+#topRightNavigation>.button-strip>[role=button]:nth-child(3):before {
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/view_column_24px.svg)!important
+}
+#topRightNavigation>.button-strip>[role=button]:nth-child(4):before {
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/view_module_24px.svg)!important
+}
+#topRightNavigation>.button-strip>[role=button]:nth-child(5):before {
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/view_column_24px.svg)!important
+}
+#topRightNavigation>.button-strip>[role=button]:nth-child(6):before {
+    content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/view_stream_24px.svg)!important
+}
+#vr-nav {
+    position: absolute!important
+}
+#onegoogbar {
+    height: 64px!important;
+    z-index: 2!important;
+    position: relative!important
+}
+#allday-disclosewk {
+    top: 82px!important
+}
+body.ink-views-collapsed #topRightNavigation .button-strip>div[role=button] {
+    display: none!important
+}
+body.ink-views-collapsed #topRightNavigation .button-strip>.trans-strip:before {
+    -webkit-transform: scaleY(-1)!important;
+    transform: scaleY(-1)!important
+}
+#lvHeader {
+    position: absolute;
+    z-index: 1!important
+}
+#lvHeader .lv-nav {
+    display: none!important
+}
+#collapse_all_link, #expand_all_link {
+    text-transform: uppercase!important;
+    color: #317af3!important;
+    height: 32px!important;
+    display: inline-block!important;
+    line-height: 32px!important
+}
+#lvHeader .cheadNotToday {
+    position: fixed!important;
+    top: 80px!important;
+    right: 180px!important
+}
+body.ink-info-open #lvHeader .cheadNotToday {
+    right: 355px!important
+}
+#navfooter {
+    display: none!important;
+    height: 0!important;
+    border: none!important;
+    margin: 0!important;
+    padding: 0!important;
+    z-index: -1!important;
+    visibility: hidden!important
+}
+#sidebar {
+    height: 190px!important
+}
+body.ink-views-collapsed #sidebar {
+    height: 24px!important
+}
+#gbqff {
+    max-width: calc(100vw - 530px)
+}
+#gb {
+    position: fixed!important;
+    z-index: 1!important;
+    background: #f5f5f5
+}
+#scrolltimedeventswk .tg-times-pri {
+    border: none!important
+}
+#scrolltimedeventswk .tg-times-pri>div:first-child {
+    visibility: hidden!important
+}
+#scrolltimedeventswk .tg-times-pri .tg-time-pri {
+    border: none!important;
+    -webkit-transform: translateY(-7px)!important;
+    transform: translateY(-7px)!important;
+    padding-right: 5px!important
+}
+#nt1, #ntowner {
+    z-index: 9999!important;
+    margin: auto!important;
+    left: 0!important;
+    right: 0!important;
+    width: 1000px!important
+}
+#gadgetcell[style*=width] {
+    width: 166px!important
+}
+
+/* ---------------
+
+name: Clean Google Calendar
+author: @Gambloide
+matches: https://google.com/calendar/*
+version: 1.0
+
+------------------ */
+
+/* Calendar */
+
+.tg-time-pri,
+.tg-time-sec,
+.tg-times-pri,
+.tg-times-sec,
+.mask-top,
+.mask-left,
+.mask-bottom,
+.mask-right,
+.chip dl,
+#weekViewAllDayBgwk,
+.wbkt .tg-timedevents,
+#searchAddCal,
+.st-c-pos div,
+.st-bg,
+.wk-allday .st-bg-next,
+.wk-allday .st-bg-today,
+.wk-allday .st-bg-td-first,
+.wk-allday .st-bg-td-last,
+.wk-dayname.wk-today,
+.wk-dayname.wk-tomorrow,
+#vr-nav {
+    border-color: transparent !important;
+}
+.st-c {
+    height: 1.5rem;
+}
+.st-c .te,
+.st-c .rb-n {
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
+}
+.chip dl,
+.calListLabelOuter {
+    border-radius: 0.2rem;
+    min-height: 1.45rem;
+}
+.chip-color {
+    border-radius: 0.3rem;
+}
+.mask-top,
+.mask-left,
+.mask-bottom,
+.mask-right,
+.wk-dayname.wk-today,
+.wk-allday .st-bg-today {
+    background-color: transparent !important;
+}
+.tg-col {
+    border-left: 1px solid #F9F9F9;
+}
+.clstMenu,
+.calListSquare,
+.calListImg-stale,
+.calListImg-sel,
+.calListImg-hvr,
+.calListImg-opn {
+    border-color: white !important;
+    border-radius: 100%;
+}
+.calListLabel div {
+    background-color: #EAEAEA !important;
+}
+#calcontent.eui-t .calListRow,
+.goog-zippy-expanded .monthtableBody {
+    margin-top: 0.85rem;
+}
+.dp-monthtable.monthtableBody tbody tr {
+    height: 1.5rem;
+}
+.goog-zippy-expanded .monthtableBody {
+    padding-right: 0.2rem;
+    padding-left: 0;
+}
+.chromeColor.goog-zippy-content {
+    margin-left: -0.8rem
+}
+.calListLabelOuter:hover {
+    background: #F7F7F7 !important;
+}
+
+.chip dd,
+.chip dt {
+    padding: 5px 5px 0px 5px;
+}
+
+
+.tg-col-eventwrapper {
+    padding-left: 0.73rem;
+}
+
+/* Settings */
+
+input,
+textarea,
+select {
+    background-color: #F7F7F7;
+    border-color: transparent;
+    border-radius: 0.15rem;
+}
+
 .st-c .rb-n {
     border-radius: 0.2rem !important;
 }
