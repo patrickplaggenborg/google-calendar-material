@@ -6,9 +6,10 @@ Inspired by:
 
 ## Why?
 
-1. Ink for Google did a great job at improving the Calendar design. But, it doesn’t touch the full interface.
+1. Ink for Google did a beautiful job at improving the Calendar design. But, it doesn’t touch the full interface and is not extensible.
 2. CleanGoogleCalendar by @Gambloide improves the events layout.
 3. I added CSS to improve some edit windows.
+4. Allow for easy extension of these changes until Google finally publishes a redesign...
 
 ## How to use? Method A: In browser (User CSS)
 
