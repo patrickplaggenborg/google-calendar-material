@@ -12,7 +12,7 @@ Inspired by:
 
 ## How to use? Method A: In browser (User CSS)
 
-https://raw.githubusercontent.com/patrickplaggenborg/google-calendar-material/master/assets/images/browser-icons.png
+[browser-icons]
 
 1. Download the Stylish extension (or any alternative):
  [Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Safari](http://sobolev.us/stylish/), 
@@ -46,3 +46,5 @@ https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets
 ## Enjoy!
 
 *I’m by no means a good coder (or architect of GitHub repositories) so any feedback to organise this is welcome*.
+
+[browser-icons]: https://raw.githubusercontent.com/patrickplaggenborg/google-calendar-material/master/assets/images/browser-icons.png "Browser Icons"
