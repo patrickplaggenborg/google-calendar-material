@@ -24,6 +24,8 @@ https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets
 
 ## How to use? Method B: Standalone Mac App using Fluid
 
+![app-icon]
+
 1. Download [Fluid App](http://fluidapp.com) to transform any web page into a native Mac App.
 
   * Pay for the license to enable ‘Userstyles’.
@@ -48,6 +50,7 @@ https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets
 *I’m by no means a good coder (or architect of GitHub repositories) so any feedback to organise this is welcome*.
 
 [browser-icons]: https://raw.githubusercontent.com/patrickplaggenborg/google-calendar-material/master/assets/images/browser-icons.png "Browser Icons"
+[app-icon]: https://raw.githubusercontent.com/patrickplaggenborg/google-calendar-material/master/assets/images/google-calendar-logo-300.png "App Icon"
 
 
 
