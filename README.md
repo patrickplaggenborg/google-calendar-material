@@ -12,6 +12,8 @@ Inspired by:
 
 ## How to use? Method A: In browser (User CSS)
 
+https://raw.githubusercontent.com/patrickplaggenborg/google-calendar-material/master/assets/images/browser-icons.png
+
 1. Download the Stylish extension (or any alternative):
  [Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Safari](http://sobolev.us/stylish/), 
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome), 
