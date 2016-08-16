@@ -15,7 +15,7 @@ Inspired by:
 
 ![browser-icons]
 
-1. Download the [Stylish](https://userstyles.org) extension (or any alternative):
+1. Download the [Stylish](https://userstyles.org) extension (or any other extension to inject custom CSS):
  [Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Safari](http://sobolev.us/stylish/), 
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome), 
 [Opera](https://addons.opera.com/extensions/details/stylish/)
