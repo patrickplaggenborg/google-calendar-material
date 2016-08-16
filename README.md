@@ -24,15 +24,15 @@ https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets
 
 ### Method 2: Standalone Mac App - Download Fluid App
 
-#### - Download [Fluid App](http://fluidapp.com) to transform any web page into a native Mac App.
+- Download [Fluid App](http://fluidapp.com) to transform any web page into a native Mac App.
 
-  - Pay for the license to enable ‘Userstyles’.
-  - Download the Google Calendar app icon: https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets/images/google-calendar-logo.png
-  - Create a standalone app for URL calendar.google.com named ‘Google Calendar’ and use the custom app icon.
+  * Pay for the license to enable ‘Userstyles’.
+  * Download the Google Calendar app icon: https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets/images/google-calendar-logo.png
+  * Create a standalone app for URL calendar.google.com named ‘Google Calendar’ and use the custom app icon.
 
 FluidApp does not support @import statements. So you will have to manually add the CSS:
 
-#### - Edit your custom styles (**Window → Userscripts**) and add these separate stylesheets (hosted via RawGit):
+- Edit your custom styles (**Window → Userscripts**) and add these separate stylesheets (hosted via RawGit):
 
   1. Ink-For-Google: https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/stylesheets/calendar.css
   2. cleanGoogleCalendar by @Gambloide: https://cdn.rawgit.com/Gambloide/a5ed244df001039bb7e4/raw/1c43c43715f3dca26b120d0f412bf5e9f59e9a6f/cleanGoogleCalendar.css
@@ -40,9 +40,7 @@ FluidApp does not support @import statements. So you will have to manually add t
 
 Or (easier) add the combined CSS stylesheet:
 
-https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets/css/google-calendar-material-combined.css
-
-
+  * https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets/css/google-calendar-material-combined.css
 
 
 Enjoy!
