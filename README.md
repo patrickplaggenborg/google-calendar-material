@@ -12,7 +12,7 @@ Inspired by:
 
 ## How to use? Method A: In browser (User CSS)
 
-[browser-icons]
+![browser-icons]
 
 1. Download the Stylish extension (or any alternative):
  [Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Safari](http://sobolev.us/stylish/), 
