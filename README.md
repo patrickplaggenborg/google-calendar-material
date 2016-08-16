@@ -41,6 +41,6 @@ https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets
   * https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets/css/google-calendar-material-combined.css
 
 
-Enjoy!
+## Enjoy!
 
 *I’m by no means a good coder (or architect of GitHub repositories) so any feedback to organise this is welcome*.
