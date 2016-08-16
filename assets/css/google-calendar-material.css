@@ -84,7 +84,7 @@ select {
 }
 .neb-dropdown-indicator, .bcp-selected {
   background: none !important;
-  content: url(http://test.ptrck.nl/stylish/calendar.google.com/assets/system-icons/expand_more_24px.svg)!important;
+  content: url(https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/src/ink-for-google/assets/system-icons/expand_more_24px.svg)!important;
   height: 24px !important;
   width: 24px !important;
   position: absolute !important;
