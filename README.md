@@ -10,9 +10,7 @@ Inspired by:
 2. CleanGoogleCalendar by @Gambloide improves the events layout.
 3. I added CSS to improve some edit windows.
 
-## How to use?
-
-### Method A: In browser (User CSS)
+## How to use? Method A: In browser (User CSS)
 
 1. Download the Stylish extension (or any alternative):
  [Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Safari](http://sobolev.us/stylish/), 
@@ -22,7 +20,7 @@ Inspired by:
 2. Add this combined CSS with @import statements as a Custom Stylesheet for ‘calendar.google.com’:
 https://cdn.rawgit.com/patrickplaggenborg/google-calendar-material/master/assets/css/google-calendar-material-import.css
 
-### Method B: Standalone Mac App - Download Fluid App
+## How to use? Method B: Standalone Mac App using Fluid
 
 1. Download [Fluid App](http://fluidapp.com) to transform any web page into a native Mac App.
 
