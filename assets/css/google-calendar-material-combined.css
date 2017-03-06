@@ -1306,7 +1306,7 @@ td[id^=dateBox]>div {
 #topRightNavigation>.button-strip {
     position: fixed!important;
     width: 238px!important;
-    top: 64px!important;
+    top: 120px!important;
     left: 0!important;
     z-index: 1000!important;
     padding: 0!important;
@@ -1508,12 +1508,12 @@ version: 1.0
 }
 .st-c .te,
 .st-c .rb-n {
-    border-radius: 0.2rem;
+    border-radius: 0.2rem !important;
     padding: 0.2rem 0.5rem;
 }
 .chip dl,
 .calListLabelOuter {
-    border-radius: 0.2rem;
+    border-radius: 0.2rem !important;
     min-height: 1.45rem;
 }
 .chip-color {
@@ -1528,7 +1528,7 @@ version: 1.0
     background-color: transparent !important;
 }
 .tg-col {
-    border-left: 1px solid #F9F9F9;
+    border-left: 1px solid #F9F9F9 !important;
 }
 .clstMenu,
 .calListSquare,
@@ -1628,8 +1628,16 @@ select {
 }
 
 .textinput, .text  {
-  background-color: white !important;
+  background-color: white;
+  border-radius: 1px !important;
+  border: 1px solid #d9d9d9 !important;
+  border-top: 1px solid #c0c0c0 !important;
+  font-size: 13px !important;
+  height: 25px !important;
+  padding: 1px 8px !important;
+  font-family: font-family: -apple-system, sans-serif !important;
 }
+
 .ui-sch-schmedit {
   font-family: Roboto, arial, sans-serif;
   color: #222;
@@ -1679,4 +1687,137 @@ select {
 .bcp-selected {
   top: -4px !important;
   left: -4px !important;
+}
+
+
+.neb-when-label {
+  display: none;
+}
+
+
+.neb-date {
+  margin: 8px 0 !important;
+}
+
+.ep-dp-dt-th {
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  line-height: 34px !important;
+  padding-bottom: 2px !important;
+}
+
+.ep-dp-dt-td, .ep-dp-dt-th {
+  padding-bottom: 2px !important;
+}
+
+.ep-dp-dt-td {
+  line-height: 34px;
+}
+
+.ep-edr-start-block {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.ep-edr-start-block .text {
+    height: 24px !important;
+}
+
+.ep-title .textinput {
+  background-color: transparent !important;
+  border: 1px solid rgb(220, 220, 220) !important;
+  font-size: 20px !important;
+  font-weight: normal !important;
+  padding: 8px 8px !important;
+}
+
+.text:focus, .textinput:focus {
+  background-color: white !important;
+  border-color: #4d90fe !important;
+}
+
+.dr-sep {
+  margin: 0 8px 0 4px !important;
+}
+.ui-dtsr {
+  margin: 4px 0 -1px 0 !important;
+  padding: 5px 18px !important;
+  height: 28px !important;
+  line-height: 28px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.ui-dtsr-unselected {
+  text-decoration: none !important;
+}
+
+.ui-dtsr-unselected:hover {
+  background-color: #e7e7e7 !important;
+}
+
+.ep-dp-privpub {
+  color: #aaa !important;
+  line-height: 14px;
+}
+
+.ep-gp-ts, .ep-gp-ts .ui-ltsr-selected, .ep-go-label {
+  font-weight: normal !important;
+  font-family: 'Roboto', sans-serif !important;
+  margin-bottom: 4px !important;
+  padding: 0 !important;
+}
+
+.ep-gs-actions {
+  margin: 0 0 0 6px;
+}
+
+.ep-gs-ta-cont .textinput {
+  height: 25px !important;
+  width: 210px !important;
+  max-width: 220px !important;
+}
+
+.ui-placeholder {
+    color: #a9a9a9 !important;
+}
+
+.ep-gp {
+  width: 330px !important;
+}
+
+.ep-dp-details {
+  padding-right: 380px !important;
+}
+
+.ep-go-guests-can {
+  margin-top: 10px;
+}
+
+.ep-go-for {
+    padding: 10px 0;
+}
+
+.ep-go-for label {
+    padding: 0 0 4px 0 !important;
+}
+
+.ep-go-for input {
+    margin-right: 8px !important;
+}
+
+.edr-txt {
+  margin-left: 2px;
+}
+
+.ep-dp-dt-hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ebebeb !important;
+  margin: 10px 0 !important;
+}
+
+#lo-c {
+  display: none!important;
 }
