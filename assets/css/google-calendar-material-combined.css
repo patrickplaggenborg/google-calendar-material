@@ -1546,6 +1546,11 @@ version: 1.0
 .goog-zippy-expanded .monthtableBody {
     margin-top: 0.85rem;
 }
+
+#dp_0.dpdiv, #dp_h {
+	margin-top: 226px!important;
+}
+
 .dp-monthtable.monthtableBody tbody tr {
     height: 1.5rem;
 }
